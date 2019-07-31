@@ -1,0 +1,15 @@
+* {
+	box-sizing: border-box;
+}
+.im img{
+    width: calc( 100% / 3 ) ;
+	padding: 2px;
+	border: 1px solid white;
+	float: left;
+	margin-bottom: 15px;
+	opacity: 0.8;
+}
+
+.im img:hover {
+	opacity: 1;
+}

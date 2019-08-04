@@ -15,7 +15,7 @@ body{
 	width: calc( 100% / 3 - 10px );
 	border: 3px solid white;
 	margin-bottom: 10px;
-	transition: trasform 0.2s linear;
+	transition: transform 0.2s linear;
 	float: left;
 }
 .im1 img{

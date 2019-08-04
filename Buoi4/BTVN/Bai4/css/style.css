@@ -14,21 +14,80 @@ body{
 	font-size: 2em;
 	line-height: 10px;
 	text-transform: uppercase;
-	font-family: Crimson Pro;
-}
-@keyframes title{
-	0%{background-color: green;}
-	35%{background-color: yellow;}
-	70%{background-color: blue;}
+	font-family: sans-serif;
+	font-weight:bold;
 }
 .im{
 	width: 200px;
-	margin: auto;
+	height: 40px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
-.im1{
-	background-color: green;
-	animation: title 5s linear infinite;
+.sum{
+	position:relative;
+	overflow: hidden; /*khi text bị tràn thì sẽ dấu text đi*/
 }
+.learning{
+	color:white;
+	background: green;
+	animation: cd 2s ease infinite;
+}
+	@keyframes cd{
+		24%{
+		visibility:visible;
+		}
+		25%{
+		visibility:hidden;
+		}
+		90%{
+		visibility: hidden;
+		}
+		91%{
+		visibility:visible;
+		}
+				}
+.coding{
+	color:white;
+	background: brown;
+	position:absolute;
+	bottom:40px;
+	animation: cd 2s ease infinite;
+}
+	@keyframes cd{
+		26%{
+		bottom:40px;
+		}
+		54%{
+		bottom:0px;
+		}
+		57%{
+		bottom:0px;
+		}
+		58%{
+		visibility:hidden;
+		}
+				}
+.teaching{
+	color:white;
+	background: purple;
+	position:absolute;
+	top: 0px;
+    visibility: hidden;
+    animation: cd 2s ease infinite;
+		}
+		@keyframes cd{
+			57%{
+			visibility: hidden;
+			}
+			58%{
+				visibility: visible;
+			}
+			89%{
+				visibility: visible;
+			}
+			90%{
+				visibility: hidden;
+			}
+					}
+

@@ -52,9 +52,9 @@ body{
 	background: brown;
 	position:absolute;
 	bottom:40px;
-	animation: cd 2s ease infinite;
+	animation: cd1 2s ease infinite;
 }
-	@keyframes cd{
+	@keyframes cd1{
 		26%{
 		bottom:40px;
 		}
@@ -72,19 +72,18 @@ body{
 	color:white;
 	background: purple;
 	position:absolute;
-	top: 0px;
-    visibility: hidden;
-    animation: cd 2s ease infinite;
+	top: 40px;
+    animation: cd2 2s ease infinite;
 		}
-		@keyframes cd{
+		@keyframes cd2{
 			57%{
-			visibility: hidden;
+			top:40px;
 			}
 			58%{
-				visibility: visible;
+			top:0px;
 			}
 			89%{
-				visibility: visible;
+			top:0px;
 			}
 			90%{
 				visibility: hidden;

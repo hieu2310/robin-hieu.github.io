@@ -51,14 +51,14 @@ body{
 	color:white;
 	background: brown;
 	position:absolute;
-	bottom:40px;
+	bottom: 40px;
 	animation: cd1 2s ease infinite;
 }
 	@keyframes cd1{
-		26%{
+		25%{
 		bottom:40px;
 		}
-		54%{
+		50%{
 		bottom:0px;
 		}
 		57%{
@@ -70,23 +70,45 @@ body{
 				}
 .teaching{
 	color:white;
-	background: purple;
 	position:absolute;
-	top: 40px;
+	top:0px;
+	visibility: hidden;
     animation: cd2 2s ease infinite;
+    z-index: 1;
 		}
 		@keyframes cd2{
 			57%{
-			top:40px;
+					visibility: hidden;
+				}
+				58%{
+					visibility: visible;
+				}
+				89%{
+					visibility: visible;
+				}
+				90%{
+					visibility: hidden;
+				}
 			}
-			58%{
-			top:0px;
-			}
-			89%{
-			top:0px;
-			}
-			90%{
-				visibility: hidden;
-			}
-					}
 
+{
+	background-color: purple;
+	position:absolute;
+	top: 40px;
+	animation: cd3 2s ease infinite;
+}
+	@keyframes cd3{
+		57%{
+		top:40px;
+		}
+		58%{
+		top:0px;
+		}
+		89%{
+		top:0px;
+		}
+		90%{
+		visibility:hidden;
+		}
+				}
+}

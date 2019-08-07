@@ -70,45 +70,22 @@ body{
 				}
 .teaching{
 	color:white;
+	background-color: purple;
 	position:absolute;
-	top:0px;
-	visibility: hidden;
+	top:40px;
     animation: cd2 2s ease infinite;
-    z-index: 1;
 		}
 		@keyframes cd2{
 			57%{
-					visibility: hidden;
+					top:40px;
 				}
 				58%{
-					visibility: visible;
+					top:0px;
 				}
 				89%{
-					visibility: visible;
+					top:0px;
 				}
 				90%{
 					visibility: hidden;
 				}
 			}
-
-{
-	background-color: purple;
-	position:absolute;
-	top: 40px;
-	animation: cd3 2s ease infinite;
-}
-	@keyframes cd3{
-		57%{
-		top:40px;
-		}
-		58%{
-		top:0px;
-		}
-		89%{
-		top:0px;
-		}
-		90%{
-		visibility:hidden;
-		}
-				}
-}

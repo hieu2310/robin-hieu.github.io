@@ -16,11 +16,23 @@ body{
 	100%{transform: scale(1.2);}
 	
 }
+.im{
+	/*text-align: center;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
 .im img{
 	width: 200px;
-	margin-left: calc( ( 100% - 200px ) / 2 );
-	margin-right: calc( ( 100% - 200px ) / 2 );
-	margin-top: 150px;
+	/*margin-left: calc( ( 100% - 200px ) / 2 );
+	margin-right: calc( ( 100% - 200px ) / 2 );*/
+	
+	/*display: block;
+	margin: auto;*/
+
+	
 	animation: title 1s ease infinite;
 }
 

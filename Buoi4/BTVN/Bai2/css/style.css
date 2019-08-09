@@ -6,22 +6,22 @@ body{
 	margin: 0;
 	padding: 0;
 }
-#wrap{
+.wrap{
 	width: 800px;
 	margin: auto;
 	margin-top: 50px;
 }
 .im img{
-	width: calc( 100% / 3 - 10px );
+	width: calc( 100% / 3 - 5px );
 	border: 3px solid white;
 	margin-bottom: 10px;
 	transition: transform 0.2s linear;
 	float: left;
+	box-shadow: 0px 1px 1px 1px #8a868a;
 }
 .im1 img{
-	margin-right: 15px;
+	margin-right: 7.5px;
 }
-
 .im img:hover{
-	transform: scale(1.2);
+	transform: scale(1.1);
 }

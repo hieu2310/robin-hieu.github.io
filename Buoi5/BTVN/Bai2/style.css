@@ -3,16 +3,15 @@ body{
 	margin: 0px;
 	padding: 0px;
 }
-
-.menu1{
+#wrap > li{
+	width: 85px;
+	font-weight: 500;
 	font-family: Roboto-Medium;
 	font-size: 20px;
 	color: #0f136d;
+	padding: 8px;
 }
-p{
-	padding: 15px;
-}
-.menu1:hover{
+#wrap > li:hover{
 	color: #f36d00;
 }
 li{

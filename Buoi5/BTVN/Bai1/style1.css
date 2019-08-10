@@ -12,7 +12,7 @@
 	position: absolute;
 	top: 33px;
 	left: 0px;
-	width: 680px;
+	width: 680px; /*có thể chia cột bằng display: flex;*/
 	background-color: white;
 }
 .t1{

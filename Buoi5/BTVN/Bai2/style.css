@@ -4,7 +4,7 @@ body{
 	padding: 0px;
 }
 #wrap > li{
-	width: 83px;
+	width: 120px;
 	font-weight: 500;
 	font-family: Roboto-Medium;
 	font-size: 20px;
@@ -30,3 +30,36 @@ span, a{
 span:hover, a:hover{
 	color: #f36d00;
 }
+.t1 > li > a > i{
+	display: none !important;
+}
+.t1 > li:hover > a > i{
+	display: inline !important;
+	float: right;
+	line-height: 27px; 
+	font-size: 18px;
+	padding-right: 8px; 
+	color: #f36d00;
+}
+
+.t1 > li > span > i{
+	display: none !important;
+}
+.t1 > li:hover > span > i{
+	display: inline !important;
+	float: right;
+	line-height: 27px; 
+	font-size: 18px;
+	padding-right: 8px; 
+	color: #f36d00;
+}
+
+#wrap > li > i:first-child{
+	display: none !important;
+}
+#wrap > li:hover > i:first-child{
+	display: inline !important;
+	font-size: 18px;
+	color: #f36d00;
+}
+

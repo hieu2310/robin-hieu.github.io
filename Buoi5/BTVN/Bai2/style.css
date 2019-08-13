@@ -30,10 +30,10 @@ span, a{
 span:hover, a:hover{
 	color: #f36d00;
 }
-.t1 > li > a > i{
+li > a > i{
 	display: none !important;
 }
-.t1 > li:hover > a > i{
+li:hover > a > i{
 	display: inline !important;
 	float: right;
 	line-height: 27px; 
@@ -42,10 +42,10 @@ span:hover, a:hover{
 	color: #f36d00;
 }
 
-.t1 > li > span > i{
+li > span > i{
 	display: none !important;
 }
-.t1 > li:hover > span > i{
+li:hover > span > i{
 	display: inline !important;
 	float: right;
 	line-height: 27px; 
@@ -54,10 +54,10 @@ span:hover, a:hover{
 	color: #f36d00;
 }
 
-#wrap > li > i:first-child{
+li > i:first-child{
 	display: none !important;
 }
-#wrap > li:hover > i:first-child{
+li:hover > i:first-child{
 	display: inline !important;
 	font-size: 18px;
 	color: #f36d00;

@@ -7,6 +7,26 @@ body{
 	background-color: #c02527;
 	width: 100%;
 	height: 30px;
+	position: relative;
+}
+.top-header-content{
+	position: absolute;
+	right: 25px;
+	top: 5px;
+}
+.top-header-content a{
+	font-family: 'UTM Trajan Pro Bold';
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.3px;
+    text-decoration: none;
+}
+.country img{
+	width: 24px;
+	position: absolute;
+	right: 180px;
+    top: 7px;
 }
 .bottom-header{
 	background-color: #eedbff;

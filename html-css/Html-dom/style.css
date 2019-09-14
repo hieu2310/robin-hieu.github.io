@@ -2,22 +2,26 @@
 	margin: 0px;
 	padding: 0px;
 }
-#main{
+body{
 	background-image: linear-gradient(#304352, #d7d2cc);
+	width: 100%;
+	height: 100vh;
+}
+#main{
+	padding-top: 150px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 165px 0px 146px;
 	position: relative;
 }
-p{
+/*p{
 	position: absolute;
 	bottom: 6px;
     right: 30px;
 	font-style: italic;
     color: #0945f9;
     font-family: arial;
-}
+}*/
 .main-content,.header{
 	background-color: white;
 	padding: 15px 10px;
